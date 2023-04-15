@@ -1,0 +1,14 @@
+region                = "ap-southeast-1"
+main_cidr_block       = "10.0.0.0/16"
+public_cidr_blocks    = ["10.0.1.0/24", "10.0.2.0/24"]
+private_cidr_blocks   = ["10.0.3.0/24", "10.0.4.0/24"]
+ecr_application_tier  = "backend-tier"
+ecr_presentation_tier = "frontend-tier"
+rds_db_admin          = "admin"
+rds_db_password       = "Dung2901"
+multi_az              = true
+db_name               = "mydb"
+engine_version        = "5.7.41"
+allocated_storage     = 20
+instance_class        = "db.t3.micro"
+db_engine             = "mysql"
