@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.blood_donation_app">
+        <application
+        android:name="io.flutter.app.FlutterApplication"
+        android:label="Your Application Name"  
+        android:icon="@mipmap/ic_launcher">
+        <activity>
+        <!--  -->
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+</manifest>
+
